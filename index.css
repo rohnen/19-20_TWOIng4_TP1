@@ -1,0 +1,99 @@
+body{
+	background-color:lightblue;
+}
+
+header{
+	background-color: green;
+	text-align: left;
+
+
+	background-image: url("profil.jpg");
+	background-position: right top;
+	background-repeat: no-repeat;	
+}
+/*Source : https://www.w3schools.com/css/css3_animations.asp */
+div {
+  height: 10px;
+  position: relative;
+  font-size: 30px;
+  -webkit-animation-name: example; 
+  -webkit-animation-duration: 4s; 
+  -webkit-animation-iteration-count: 3; 
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 50;
+}
+
+@keyframes example {
+   0%   {color:orange; left:0px; bottom:80px;}
+  50%  {color:red; left:920px; bottom:80px;}
+  100%  {color:orange; left:0px; bottom:80px;}
+ 
+}
+
+nav ul{
+	list-style-type: none;
+	background-color: #333333;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+nav li {
+	display: inline-block;
+	border-right: 1px ;
+	border-left: 1px;
+	text-align: center;
+
+	line-height: 60px;
+}
+nav li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+nav li :hover{
+	background-color: blue;
+}
+
+form {
+ text-align: center;
+ padding-bottom: : 15px;
+ background-color:lightgreen;
+width: 100%;
+margin-left: : 200px;
+margin-bottom: 200px;
+
+ }
+
+input, textarea {
+ background-color:#FFF3F3;
+ display: inline-block;
+ padding:5px;
+ margin-left: 250px;
+ border:1px solid #F5C5C5;
+ border-radius:5px;
+ width:200px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+ td{
+ 	padding: 5px;
+ }
+
+ input[type=submit] {
+ width:100px;
+ margin-left:50px;
+ box-shadow:1px 1px 1px #D83F3D;
+ cursor:pointer;
+ }
+
+ footer{
+ 	background-color: #5A5756;
+ 	text-align: center;
+ 	margin-bottom: 20px;
+ 	color: white;
+ }
+
+
+
+
+

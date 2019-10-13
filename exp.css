@@ -1,0 +1,27 @@
+body{
+	background-color: lightblue;
+}
+
+header{
+	text-align: center;
+	color: black;
+}
+
+.section{
+	float: left;
+	margin-top: 0px;
+}
+
+.titre{
+	color: red;
+}
+
+.strong{
+	font-size: 20px;
+	color: brown;
+}
+
+img{
+	float: center;
+
+}

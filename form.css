@@ -1,0 +1,17 @@
+body{
+	background-color: lightgreen;
+}
+header{
+	text-align: center;
+}
+.titre{
+	color: blue;
+	margin-left: 10px;
+	
+}
+
+.strong{
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+}

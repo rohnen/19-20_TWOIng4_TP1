@@ -1,0 +1,31 @@
+body{
+	background-color: lightblue;
+}
+
+header{
+	text-align: center;
+	color: black;
+}
+
+.langages{
+	font-size: 20px;
+	color: purple;
+	margin-left: 370px;
+	float: left;
+	
+}
+
+.pourcentages{
+	font-size: 20px;
+	color: red;
+	margin-left: 150px;
+	padding-top: 1px;
+	
+}
+.skills{
+	text-align: center;
+}
+.retour{
+	text-align: center;
+	font-size: 20px;
+}
