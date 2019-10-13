@@ -1,0 +1,43 @@
+body{
+	background-color: lightgreen;
+}
+
+header{
+	text-align: center;
+}
+
+img{
+	width: 40%;
+	height: 400px;
+
+}
+
+p{
+	margin-left: 200px;
+	font-size: 25px;
+	color: red;
+}
+
+.texte{
+	margin-left:10px;
+	font-size: 20px;
+	text-align: center;
+	color:black;
+}
+/*Source pour l'audio : https://openclassrooms.com/forum/sujet/faire-marcher-un-son-en-cliquant-sur-une-image*/
+aside{
+	text-align: top right;
+	
+}
+.livre{
+	text-align: right;
+	margin-right: 300px;
+
+}
+
+.imgtab{
+	width: 40%;
+	height: 100px;
+	float: right;
+	margin-left: 260px;
+}

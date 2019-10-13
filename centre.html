@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Centre d'interets</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="centre.css">
+
+<script>
+	function lancer_son() {
+    var audio = document.getElementById('bloc_son');
+    audio.volume = 1; // on met le son au maximum
+    audio.play(); // on lance le son
+}
+
+function lancer_son1() {
+    var audio = document.getElementById('bloc_son1');
+    audio.volume = 1; // on met le son au maximum
+    audio.play(); // on lance le son
+}
+
+</script>
+
+</head>
+<body>
+	<header>
+		<h1>Centre d'interêts</h1>
+	</header>
+
+<p>FOOTBALL</p>
+<p class="livre">
+	PING-PONG
+</p>
+<audio id="bloc_son" >
+	<source src="music.mp3" type="audio/ogg" />
+</audio>
+<audio id="bloc_son1" >
+	<source src="balle.mp3" type="audio/ogg" />
+</audio>
+
+<img src="football.jpeg" onclick="lancer_son();" />
+
+<p class="imgtab">
+	<img src="ping.jpg" alt="ping" onclick="lancer_son1();" />
+</p>
+
+<p class="texte">
+	CLIQUEZ SUR LES IMAGES !
+	<br>
+	<a href="index.html">Retour sur le CV</a>
+	<br>
+</p>
+	
+</body>
+</html>
